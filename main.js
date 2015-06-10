@@ -73,5 +73,11 @@ var woody = items.filter(function(item){
 
 // question 5
 
+eightMaterials.forEach(function(item){
+  var title = item.title;
+  var materials = item.materials;
+  var materialsLength = materials.length;
 
+  var titleAndLength = title + 'has' + materialsLength + 'materials' + '\n';
+});
 

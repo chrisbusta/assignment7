@@ -1,2 +1,3 @@
 assignment 7
-data parsing
+ etsy data parsing
+excercises js
