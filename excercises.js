@@ -10,8 +10,7 @@ function max(a,b) {
         return b;
     }
 
-    console.log(max(7,-2));
-// }
+    }
 
 // ---------------------
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.

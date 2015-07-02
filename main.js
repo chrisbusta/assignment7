@@ -1,12 +1,5 @@
 
-// var answer1 = document.querySelector('#answer');
-// answer1.innerText = '';
-// items.forEach( function (item) {
-//   answer1.appendChild(document.createTextNode(item.price + '\n'));
-// });
 
-// get all prices
-// get the number of items
 
 
 
@@ -33,25 +26,8 @@ document.querySelector('#answer1').textContent = "The average price is $" + answ
 
 
 
-
-
-
-
-
 // question 2
 
-// var filtered = items.filter(function (item) {
-
-//   var isover14 = item.price > 14;
-//   var isunder18 = item.price < 18;
-
-
-
-
-
-//   return isover14 && isunder18
-
-// });
 var itemsBetween = items.filter(function(item) {
   if (item.price > 14 && item.price < 18)
     return item;
@@ -63,20 +39,6 @@ answer2.innerText = "";
 itemsBetween.forEach(function(item) {
   answer2.appendChild(document.createTextNode(item.title + '\n'));
 });
-// var answer2 = ' ';
-
-
-
-
-
-// document.querySelector('#answer2').textContent = answer2;
-
-
-
-
-
-
-
 
 
 // // question 3
@@ -84,28 +46,15 @@ itemsBetween.forEach(function(item) {
 var gbp = items.filter(function(x){
   return x.currency_code === 'GBP';
 
-
 });
 
-// console.log(gbp);
 
-// gbp.forEach( function (y){
-//   console.log(y.title, y.price);
-//   return
-// });
 gbp.forEach(function(y) {
   document.querySelector('#answer3').textContent = y.title + " costs " + y.price;
 });
 
 
-
-
-// document.querySelector('').textContent
-
 // // question 4
-
-
-
 
 var woody = items.filter(function(item) {
    if (item.materials.indexOf("wood") !== -1)
