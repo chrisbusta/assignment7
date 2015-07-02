@@ -1,17 +1,17 @@
 // ---------------------
 // Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in JavaScript.
 // ---------------------
-function max(a,b){
+function max(a,b) {
     if(a > b){
         alert(a + " is the greater number")
         return a;
-    }else{
+    }else}
         alert( b +" is the greater number");
         return b;
     }
 
-    //...
-}
+    console.log(max(7,-2));
+// }
 
 // ---------------------
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
@@ -29,6 +29,8 @@ function maxOfThree(x,y,z){
 
     //...
 }
+console.log(maxOfThree(3,2,9));
+
 
 // ---------------------
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
@@ -64,8 +66,8 @@ function rovarspraket(phrase){
 
 
 
-    //...
-}
+    ...
+
 
 // ---------------------
 // Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
@@ -100,7 +102,6 @@ console.log(reverse('jag testar'));
 var string = 'ratset gaj';
 console.log(new_str === string);
     //...
-}
 
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
@@ -128,8 +129,8 @@ function filterLongWords(words, i){
     return arr.filter( function(a) { return a.length > i} );
 
 
-    //...
-}
+
+};
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
@@ -143,9 +144,9 @@ function charFreq(string){
     char.forEach(function(char) {
         if(charList[char] === undefined)
 
-    } { else }
+    }) { else }
 
     charFreq('abbabcbdbabdbdbabababcbcbab');
 
-    //...
+
 }
